@@ -35,6 +35,38 @@ let toString=String(value)
 console.log(typeof toString);
 console.log( toString);
 
+//****************************operations************************************* */
+
+let val=3
+let negval=-val
+console.log(negval)
+console.log(2*2)
+
+let str1="aditi"
+let str2="kumari"
+let str3=str1+str2
+console.log(str3)
+console.log("1"+2)
+console.log(1+"2")
+console.log("1"+2+2)
+console.log(1+2+"2");
+console.log(true)
+console.log(+true)
+console.log(+false)
+
+let num1,num2,num3
+num1=num2=num3=4
+
+let gamecounter=100
+console.log(gamecounter++)
+console.log(++gamecounter)
+
+
+
+
+
+
+
 
 
 
