@@ -36,11 +36,11 @@ console.log(word.split(" "))
 console.log(word.split(" ",2))//array of words with limit 2
 console.log(word.search("name"))//returns the index of the first occurrence of the specified value in a string
 console.log(word.search((/Name/i)))//returns the index of the first occurrence of the specified value in a string, case insensitive
-console.log(word.match(/name/i))//returns an array of all matches of a string against a regular expression, case insensitive
+console.log(word.match(/name/g))//returns an array of all matches of a string against a regular expression,g=global search
 
 const pets="cat dog cat dog cat dog"
 console.log(pets.match(/cat/g))//returns an array of all matches of a string against a regular expression, g=global search
 
 
 
-
+//strings are immutable, once a string is created, it cannot be changed. Any operation that modifies a string will create a new string instead of modifying the original string.
